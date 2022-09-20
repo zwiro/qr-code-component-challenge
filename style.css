@@ -23,24 +23,25 @@ main {
 
 
 img {
-    border-radius: 30px;
+    border-radius: 2rem;
     padding: 1rem;
     width: 100%;
     box-sizing: border-box;
 }
 
-main p {
+main p,
+h1 {
     padding: 0.75rem 1.25rem 0 1.25rem;
     margin: 0;
 }
 
-main p:first-of-type {
+main h1 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
     font-size: 1.25rem;
 }
 
-main p:last-of-type {
+main p {
     color: hsl(220, 15%, 55%);
     padding-bottom: 2.25rem;
 }
